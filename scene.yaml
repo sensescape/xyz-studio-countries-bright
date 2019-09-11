@@ -242,6 +242,14 @@ layers:
                 polygons:
                     color: [0.969,0.969,0.969]
 
+        playas:
+            filter: { kind: playa }
+            draw:
+                polygons:
+                    visible: true
+                    order: global.feature_order
+                    color: [0.404,0.824,0.784]
+
     buildings:
         data: { source: mapzen, layer: buildings }
         filter:
